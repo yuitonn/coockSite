@@ -41,6 +41,7 @@ services:
       - MYSQL_USER=posse
       - MYSQL_PASSWORD=password
       - TZ=Asia/Tokyo
+      - RAKUTEN_API_KEY=1035752031420998356
     # phpmyadmin:
     #   image: phpmyadmin/phpmyadmin
     #   environment:
